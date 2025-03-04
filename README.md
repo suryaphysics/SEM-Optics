@@ -23,7 +23,7 @@ probe_intensity_focal_series - Folder containing probe intensity images named (0
 
 #### References: ####
 
-**Main work:** Kamal, S., & Hailstone, R. K. (2024). Point-Spread Function of the Optics in Scanning Electron Microscopes. arXiv preprint arXiv:2407.01439.
+**Main work:** Kamal, S., & Hailstone, R. K. (2024). Point-Spread Function of the Optics in Scanning Electron Microscopes. arXiv preprint arXiv:2407.01439. http://dx.doi.org/10.48550/arXiv.2407.01439
 
 **Probe intensity reconstruction:** Zotta, M. D., Nevins, M. C., Hailstone, R. K., & Lifshin, E. (2018). The Determination and Application of the Point Spread Function in the Scanning Electron Microscope. Microscopy and microanalysis: the official journal of Microscopy Society of America, Microbeam Analysis Society, Microscopical Society of Canada, 24(4), 396–405. https://doi.org/10.1017/S1431927618012412
 
