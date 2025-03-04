@@ -4,11 +4,17 @@ Defocus based phase retrieval of the electron probe wave function using focal se
 Description: All functions and code are annotated and commented well and are clear to understand when read with the main paper. It takes a decent computational capability to run this program quickly.
 
 main_code.m - Run this code to execute the program
+
 ASM_propagation.m - Propagation function based on the angular spectrum method
+
 defocus_phase_retrieval.m - Function to perform iterative phase retrieval based on defocus variation
+
 volt2wavelen.m - Function to calculate the relativistic wavelength from accelerating
+
 psf_visualization.m - Function to visualize the PSF of SEM Optics based on recovered probe wavefunction
+
 z_sampling.mat - z-locations (mm) of the specimen plane in the focal series
+
 probe_intensity_focal_series - Folder containing probe intensity images named (0_PSF.png, +-1.png, ...), although they are named as PSF.png, but they are not to be confused with PSF of the SEM Optics, they are just probe intensity.
 
 IMPORTANT DISTINCTION: The probe intensity is loosely referred to as the PSF of SEM in SEM literature (inaccurate). We are visualizing the PSF of "SEM Optics - the lens system", which is a mathematically defined quantity.   
