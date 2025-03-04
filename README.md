@@ -1,7 +1,9 @@
 # SEM-Optics
 Defocus based phase retrieval of the electron probe wave function using focal series of probe intensities in SEM. 
 
-Description: All functions and code are annotated and commented well and are clear to understand when read with the main paper. It takes a decent computational capability to run this program quickly.
+~#### Description #####
+
+All functions and code are annotated and commented well and are clear to understand when read with the main paper. It takes a decent computational capability to run this program quickly.
 
 main_code.m - Run this code to execute the program
 
@@ -19,7 +21,7 @@ probe_intensity_focal_series - Folder containing probe intensity images named (0
 
 IMPORTANT DISTINCTION: The probe intensity is loosely referred to as the PSF of SEM in SEM literature (inaccurate). We are visualizing the PSF of "SEM Optics - the lens system", which is a mathematically defined quantity.   
 
-References: 
+#### References: ####
 
 **Main work:** Kamal, S., & Hailstone, R. K. (2024). Point-Spread Function of the Optics in Scanning Electron Microscopes. arXiv preprint arXiv:2407.01439.
 
