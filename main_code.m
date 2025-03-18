@@ -75,7 +75,7 @@ fy = fx;
 %% Section 3 - Iterative Phase Retrieval 
 
 iterations = 23400;   % number of iterations
-[focal_series, error] = defocus_phase_retrieval(Fx,Fy,z_mm,intensity_focal_series,lambda,iterations);
+[focal_series, error] = defocus_phase_retrieval_hard(Fx,Fy,z_mm,intensity_focal_series,lambda,iterations); 
 
 in_focus_probe = focal_series(:,:,n+1); % complete probe wavefunction in the infocus plane
 
