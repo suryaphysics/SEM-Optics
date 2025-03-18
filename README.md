@@ -9,7 +9,9 @@ main_code.m - Run this code to execute the program
 
 ASM_propagation.m - Propagation function based on the angular spectrum method
 
-defocus_phase_retrieval.m - Function to perform iterative phase retrieval based on defocus variation
+defocus_phase_retrieval.m - Automated function to perform iterative phase retrieval based on defocus variation
+
+defocus_phase_retrieval_hard.m - Hard-coded function to perform iterative phase retrieval based on defocus variation
 
 volt2wavelen.m - Function to calculate the relativistic wavelength from accelerating
 
