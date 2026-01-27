@@ -10,7 +10,7 @@ focal_series(:,:,10) = I_center.*exp(1i*2*pi*ones(size(I_center))); % constant i
 for i = 1:iter
 
     focal_series(:,:,11) = ASM_propagation(  focal_series(:,:,10),   (z(11)-z(10))   ,X,Y,lambda);
-    focal_series(:,:,11) =  sqrt(focal_series_intensity(:,:,10)).*exp(1i*angle(focal_series(:,:,11)));
+    focal_series(:,:,11) =  sqrt(focal_series_intensity(:,:,11)).*exp(1i*angle(focal_series(:,:,11)));
 
     focal_series(:,:,12) = ASM_propagation(  focal_series(:,:,11),   (z(12)-z(11))   ,X,Y,lambda);
     focal_series(:,:,12) =  sqrt(focal_series_intensity(:,:,12)).*exp(1i*angle(focal_series(:,:,12)));
@@ -137,4 +137,5 @@ for i = 1:iter
     % figure(5)
     % plot(1:iter,(error));
 end
+
 end
