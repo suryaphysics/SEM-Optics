@@ -11,8 +11,6 @@ ASM_propagation.m - Propagation function based on the angular spectrum method
 
 defocus_phase_retrieval.m - Automated function to perform iterative phase retrieval based on defocus variation
 
-defocus_phase_retrieval_hard.m - Hard-coded function to perform iterative phase retrieval based on defocus variation
-
 volt2wavelen.m - Function to calculate the relativistic wavelength from accelerating
 
 psf_visualization.m - Function to visualize the PSF of SEM Optics based on recovered probe wavefunction
@@ -25,10 +23,8 @@ probe_intensity_focal_series - Folder containing probe intensity images named (0
 
 #### References: ####
 
-**Main work:** Kamal, S., & Hailstone, R. K. (2024). Point-Spread Function of the Optics in Scanning Electron Microscopes. arXiv preprint arXiv:2407.01439. http://dx.doi.org/10.48550/arXiv.2407.01439
+**Main work:** Kamal, S., Nyaburi, K. M., & Hailstone, R. K. (2026). Optical point-spread function via defocus phase retrieval in scanning electron microscopy. Micron, 104097. https://doi.org/10.1016/j.micron.2026.104097
 
 **Probe intensity reconstruction:** Zotta, M. D., Nevins, M. C., Hailstone, R. K., & Lifshin, E. (2018). The Determination and Application of the Point Spread Function in the Scanning Electron Microscope. Microscopy and microanalysis: the official journal of Microscopy Society of America, Microbeam Analysis Society, Microscopical Society of Canada, 24(4), 396–405. https://doi.org/10.1017/S1431927618012412
-
-**Phase retrieval algorithm:** Allen, L. J., & Oxley, M. P. (2001). Phase retrieval from series of images obtained by defocus variation. Optics communications, 199(1-4), 65-75.
 
 If you have any questions or suggestions about the program, please email: surya.kamal@rit.edu
