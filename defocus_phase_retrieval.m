@@ -34,7 +34,7 @@ U_center = in_focus_probe;
 
 %% Projection parameters
 
-gamma = 1;
+gamma = 0.8;
 amin = 1e-8;
 
 
