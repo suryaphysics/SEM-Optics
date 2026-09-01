@@ -1,6 +1,6 @@
 function [focal_series,error,U_center] = defocus_phase_retrieval( ...
-    X,Y,z,focal_series_intensity,lambda,iter,in_focus_probe)
-
+    X,Y,z,focal_series_intensity,lambda,iter)
+(Fx,Fy,z_mm,intensity_focal_series,lambda,iterations)
 % Stable defocus-diversity phase retrieval
 %
 % Inputs:
@@ -22,6 +22,7 @@ num_planes = size(focal_series_intensity,3);
 center_idx = ceil(num_planes/2);
 
 A_center = sqrt(max(focal_series_intensity(:,:,center_idx),0));
+in_focus_probe = focal_series(:,:,center_idx);
 
 focal_series = zeros(size(focal_series_intensity),'like',1i);
 error = zeros(1,iter);
@@ -39,7 +40,7 @@ amin = 1e-8;
 
 %% Iterative reconstruction
 
-for it = 80001:iter
+for it = 1:iter
 
     focal_series(:,:,center_idx) = U_center;
 
